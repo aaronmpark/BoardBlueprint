@@ -2,18 +2,21 @@
     {
         "id": 1,
         "name": "Base",
-        "imgUrl": "/imgs/kb_base.jpg"
+        "imgUrl": "/imgs/kb_base.jpg",
+        "navigateTo": "/base"
     },
 
     {
         "id": 2,
         "name": "Switches",
-        "imgUrl": "/imgs/kb_switches.jpg"
+        "imgUrl": "/imgs/kb_switches.jpg",
+        "navigateTo": "/switches"
     },
 
     {
         "id": 3,
         "name": "Keycaps",
-        "imgUrl": "/imgs/kb_keycaps.jpg"
+        "imgUrl": "/imgs/kb_keycaps.jpg",
+        "navigateTo": "/keycaps"
     }
 ]

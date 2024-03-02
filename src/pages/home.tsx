@@ -1,16 +1,20 @@
-import { Col, Row } from "react-bootstrap"
-import homeItems from "../data/keyboard.json"
-import { HomeItem } from "../components/HomeItem"
+import { Container, Row, Col, ListGroup } from 'react-bootstrap'
+import homeItems from '../data/keyboard.json'
+import { HomeItem } from '../components/HomeItem'
 
 export function Home() {
-    return <><h1>Home</h1>
-        <Row md={2} xs={1} lg={3} className="g-3">
-            {homeItems.map(item => (
-                <Col key={item.id}>
-                    <HomeItem {...item} />
-                </Col>
-            ))}
-        </Row>
-
-    </>
+    return ( <> <h1>Home</h1>
+            <Container>
+                <Row className="justify-content-center">
+                    <Col xs={12} md={4}>
+                        <ListGroup>
+                            {homeItems.map(item => (
+                                <HomeItem key={item.id} {...item} />
+                            ))}
+                        </ListGroup>
+                    </Col>
+                </Row>
+            </Container>
+        </>
+    );
 }
