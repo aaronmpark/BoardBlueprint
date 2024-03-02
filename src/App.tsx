@@ -5,7 +5,7 @@ import { Store } from "./pages/store"
 import { About } from "./pages/about"
 import { Navbar } from "./components/navBar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
-
+import { Base } from "./pages/base"
 
 // className = mb-4 (margining)
 function App() {
@@ -17,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
+          <Route path="/base" element={<Base />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
