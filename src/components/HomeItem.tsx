@@ -1,53 +1,37 @@
-import { Button, Card } from "react-bootstrap"
-// import { useShoppingCart } from "../context/ShoppingCartContext"
-
+import { Button, ListGroup } from "react-bootstrap"
 import { useNavigate } from 'react-router-dom'
 
 //Home page for "keyboards" (for now named "Home", future change this name)
-//jt Repo'd 'StoreItem.tsx', major changes: removed all occurences of 'price' as it's unnecessary here
+//added 'navigateTo', which just directly navigates to specified page (i.e. "base" to base.tsx)
 
 type HomeItemProps = {
-    id: number
     name: string
     imgUrl: string
+    navigateTo: string;
 }
 
 
-export function HomeItem({ name, imgUrl }:
-    HomeItemProps) {
-    // const {
-    //     getItemQuantity,
-    //     increaseCartQuantity,
-    //     decreaseCartQuantity,
-    //     removeFromCart
-    // } = useShoppingCart()
-    // const quantity = getItemQuantity(id)
-
+export function HomeItem({ name, imgUrl , navigateTo }: HomeItemProps) {
     const navigate = useNavigate()
 
 
-    const navigateSite = (names: string) => {
-        navigate(names)
-    }
+    const handleNavigation = () => {
+        navigate(navigateTo);
+    };
 
-
-    return (<Card className="h-100">
-        <Card.Img
-            variant="top"
-            src={imgUrl}
-            height="200px"
-            style={
-                { objectFit: "cover" }}
-        />
-        <Card.Body className="d-flex flex-column">
-            <Card.Title className="d-flex justify-content-between
-            align-items-baseline mb-4">
-                <span className="fs-2">{name}</span>
-            </Card.Title>
-            <div className="mt-auto">
-                <Button className="w-100" onClick={() => navigateSite(name)}>+ Add</Button>
-            </div>
-        </Card.Body>
-    </Card>
-    )
+    return (
+        <ListGroup className="h-100">
+            <ListGroup.Item className="d-flex justify-content-between align-items-center">
+                <div className="d-flex align-items-center">
+                    <img 
+                        src={imgUrl} 
+                        alt={name} 
+                        style={{ width: '80px', height: '80px', marginRight: '10%', objectFit: 'cover' }} 
+                    />
+                    <span>{name}</span>
+                </div>
+                <Button variant="outline-primary" onClick={handleNavigation}>+ Add</Button>
+            </ListGroup.Item>
+        </ListGroup>
+    );
 }
