@@ -3,6 +3,10 @@ import { useShoppingCart } from "../context/ShoppingCartContext"
 import storeItems from "../data/items.json"
 import { formatCurrency } from "../utilities/formatCurrency"
 
+// items found within the cart 
+
+//csName="me-auto" -> automatically moves the stuff to the  right
+
 
 type CartItemProps = {
     id: number
