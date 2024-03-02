@@ -1,5 +1,5 @@
 import { Button, Card } from "react-bootstrap"
-import { useShoppingCart } from "../context/ShoppingCartContext"
+// import { useShoppingCart } from "../context/ShoppingCartContext"
 
 import { useNavigate } from 'react-router-dom'
 
@@ -13,15 +13,15 @@ type HomeItemProps = {
 }
 
 
-export function HomeItem({ id, name, imgUrl }:
+export function HomeItem({ name, imgUrl }:
     HomeItemProps) {
-    const {
-        getItemQuantity,
-        increaseCartQuantity,
-        decreaseCartQuantity,
-        removeFromCart
-    } = useShoppingCart()
-    const quantity = getItemQuantity(id)
+    // const {
+    //     getItemQuantity,
+    //     increaseCartQuantity,
+    //     decreaseCartQuantity,
+    //     removeFromCart
+    // } = useShoppingCart()
+    // const quantity = getItemQuantity(id)
 
     const navigate = useNavigate()
 
