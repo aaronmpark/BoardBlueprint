@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name": "Base",
+        "imgUrl": "/imgs/kb_base.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Switches",
+        "imgUrl": "/imgs/kb_switches.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Keycaps",
+        "imgUrl": "/imgs/kb_keycaps.jpg"
+    }
+]
