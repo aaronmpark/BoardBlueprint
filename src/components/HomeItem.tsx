@@ -21,12 +21,12 @@ export function HomeItem({ name, imgUrl , navigateTo }: HomeItemProps) {
 
     return (
         <ListGroup className="h-100">
-            <ListGroup.Item className="d-flex justify-content-between align-items-center">
+            <ListGroup.Item className="d-flex justify-content-between align-items-center mb-3">
                 <div className="d-flex align-items-center">
                     <img 
                         src={imgUrl} 
                         alt={name} 
-                        style={{ width: '80px', height: '80px', marginRight: '10%', objectFit: 'cover' }} 
+                        style={{ width: '90px', height: '90px', marginRight: '13%', objectFit: 'cover' }} 
                     />
                     <span>{name}</span>
                 </div>
