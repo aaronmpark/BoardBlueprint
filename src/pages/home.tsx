@@ -5,23 +5,6 @@ import { HomeItem } from '../components/HomeItem'
 export function Home() {
     return (
         <>
-            <style>{`
-                .page-container {
-                    min-height: 100vh;
-                    display: flex;
-                    flex-direction: column;
-                }
-                .content-wrap {
-                    flex: 1;
-                }
-                .footer {
-                    width: 100%;
-                    background: #ffffff;
-                    color: black;
-                    text-align: center;
-                    padding: 25px 0;
-                }
-            `}</style>
             <div className="page-container">
                 <div className="content-wrap">
                     <Container>
@@ -42,5 +25,5 @@ export function Home() {
                 </footer>
             </div>
         </>
-    );
+    )
 }
