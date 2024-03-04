@@ -1,13 +1,13 @@
-import { Routes, Route } from "react-router-dom"
-import { Container } from "react-bootstrap"
-import { Home } from "./pages/home"
-import { Store } from "./pages/store"
-import { About } from "./pages/about"
-import { Navbar } from "./components/navBar"
-import { ShoppingCartProvider } from "./context/ShoppingCartContext"
-import { Base } from "./pages/base"
-import { Switches } from "./pages/switches"
-import { Keycaps } from "./pages/keycaps"
+import { Routes, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import { Home } from "./pages/home";
+import { Store } from "./pages/store";
+import { About } from "./pages/about";
+import { Navbar } from "./components/navBar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import { Base } from "./pages/base";
+import { Switches } from "./pages/switches";
+import { Keycaps } from "./pages/keycaps";
 
 // className = mb-4 (margining)
 function App() {
@@ -25,6 +25,6 @@ function App() {
         </Routes>
       </Container>
     </ShoppingCartProvider>
-  )
+  );
 }
-export default App
+export default App;
