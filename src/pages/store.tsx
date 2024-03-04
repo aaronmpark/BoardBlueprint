@@ -1,6 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import storeItems from "../data/items.json";
 import { StoreItem } from "../components/StoreItem";
+import Copyright from "../components/Copyright";
 
 export function Store() {
   return (
@@ -13,8 +14,8 @@ export function Store() {
           </Col>
         ))}
       </Row>
-      <footer className="footer">
-        &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+      <footer>
+        <Copyright />
       </footer>
     </>
   );

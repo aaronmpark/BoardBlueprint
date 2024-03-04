@@ -1,6 +1,7 @@
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
 import homeItems from "../data/keyboard.json";
 import { HomeItem } from "../components/HomeItem";
+import Copyright from "../components/Copyright";
 
 export function Home() {
   return (
@@ -20,8 +21,8 @@ export function Home() {
             </Row>
           </Container>
         </div>
-        <footer className="footer">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+        <footer>
+          <Copyright />
         </footer>
       </div>
     </>
