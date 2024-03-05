@@ -1,9 +1,9 @@
 import Copyright from "../components/Copyright";
 
-export function Base() {
+export function Accessories() {
   return (
     <>
-      <h1>Base</h1>
+      <h1>Accessories</h1>
       <footer>
         <Copyright />
       </footer>
