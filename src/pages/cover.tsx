@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { Container } from "react-bootstrap";
+import Copyright from "../components/Copyright";
 
 const Cover = () => {
   const navigate = useNavigate();
@@ -34,6 +35,7 @@ const Cover = () => {
 
           <footer className="mastfoot mt-auto">
             <div className="inner"></div>
+            <Copyright />
           </footer>
         </div>
       </Container>

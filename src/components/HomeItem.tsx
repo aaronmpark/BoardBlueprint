@@ -28,7 +28,7 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
               width: "90px",
               height: "90px",
               marginRight: "13%",
-              objectFit: "cover",
+              objectFit: "contain",
             }}
           />
           <span>{name}</span>
