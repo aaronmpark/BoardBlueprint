@@ -1,467 +1,653 @@
 [
     {
+        "id": 1,
         "name": "Switch Sample Packs",
         "price": "$45.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC09908.jpg?v=1706906462"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC09908.jpg?v=1706906462",
+        "link": "https:\/\/cannonkeys.com\/\/products\/switch-sample-packs"
     },
     {
+        "id": 2,
         "name": "Mystery Switches",
         "price": "$9.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/MysterySwitch_Premium.png?v=1708038743"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/MysterySwitch_Premium.png?v=1708038743",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mystery-switches"
     },
     {
+        "id": 3,
         "name": "Neapolitan Ice Cream Tactile Switch",
         "price": "$25.20",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/neapolitan-hero.png?v=1686688316"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/neapolitan-hero.png?v=1686688316",
+        "link": "https:\/\/cannonkeys.com\/\/products\/neapolitan-ice-cream-switch"
     },
     {
+        "id": 4,
         "name": "Anubis Tactile Switch by Mechs on Deck",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/anubis-hero_f02df074-4422-4c77-8f29-564020f0d649.png?v=1686688437"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/anubis-hero_f02df074-4422-4c77-8f29-564020f0d649.png?v=1686688437",
+        "link": "https:\/\/cannonkeys.com\/\/products\/anubis-switch"
     },
     {
+        "id": 5,
         "name": "Gateron Melodic Clicky Switches",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07525.jpg?v=1705087003"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07525.jpg?v=1705087003",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-melodic-switches"
     },
     {
+        "id": 6,
         "name": "Gateron Magnetic Jade Linear Switches",
         "price": "$28.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07992-2.jpg?v=1708523135"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07992-2.jpg?v=1708523135",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-magnetic-jade-switches"
     },
     {
+        "id": 7,
         "name": "Gateron Smoothie Linear Switch",
         "price": "$10.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07548-2.jpg?v=1705088291"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC07548-2.jpg?v=1705088291",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-smoothie-switch"
     },
     {
+        "id": 8,
         "name": "CK x Haimu Clipper Swordfish Tactile Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00730.jpg?v=1704407658"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00730.jpg?v=1704407658",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-clipper-swordfish-tactile-switch"
     },
     {
+        "id": 9,
         "name": "CK x Haimu Clipper Sea Serpent Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00729-2.jpg?v=1704406807"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00729-2.jpg?v=1704406807",
+        "link": "https:\/\/cannonkeys.com\/\/products\/haimu-clipper-sea-serpent-linear-switch"
     },
     {
+        "id": 10,
         "name": "Everfree Grayish Tactile Switch",
         "price": "$10.08",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00681-2.jpg?v=1703120740"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC00681-2.jpg?v=1703120740",
+        "link": "https:\/\/cannonkeys.com\/\/products\/everfree-grayish-switch"
     },
     {
+        "id": 11,
         "name": "Coffee Chip Ice Cream Tactile Switch",
         "price": "$16.92",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/coffee-chip-hero.png?v=1686688349"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/coffee-chip-hero.png?v=1686688349",
+        "link": "https:\/\/cannonkeys.com\/\/products\/coffee-chip-ice-cream-switch"
     },
     {
+        "id": 12,
         "name": "Haimu Heartbeat Silent Linear Switch",
         "price": "$10.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/heartbeat-hero.png?v=1686688000"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/heartbeat-hero.png?v=1686688000",
+        "link": "https:\/\/cannonkeys.com\/\/products\/haimu-heartbeat-silent-linear-switch"
     },
     {
+        "id": 13,
         "name": "Gateron Mini i Tactile Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_a1c8b29d-0a56-41d4-ad1b-89b6cf55b235.jpg?v=1697762512"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_a1c8b29d-0a56-41d4-ad1b-89b6cf55b235.jpg?v=1697762512",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-mini-i-tactile-switch"
     },
     {
+        "id": 14,
         "name": "Gateron Mountain Top Linear Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_afcfeab0-55b6-436e-a4a9-0b676c843b21.jpg?v=1697762558"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_afcfeab0-55b6-436e-a4a9-0b676c843b21.jpg?v=1697762558",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-mountain-top-linear-switch"
     },
     {
+        "id": 15,
         "name": "Everfree Curry Linear Switch",
         "price": "$7.20",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_82c18d40-0412-45b0-858c-3b3c5bf6a0af.jpg?v=1697762596"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_82c18d40-0412-45b0-858c-3b3c5bf6a0af.jpg?v=1697762596",
+        "link": "https:\/\/cannonkeys.com\/\/products\/everfree-curry-linear-switch"
     },
     {
+        "id": 16,
         "name": "Gateron Beer Tactile Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0666.jpg?v=1692715767"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0666.jpg?v=1692715767",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-beer-tactile-switch"
     },
     {
+        "id": 17,
         "name": "Shaka Tactile Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0480.jpg?v=1691790118"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0480.jpg?v=1691790118",
+        "link": "https:\/\/cannonkeys.com\/\/products\/shaka-tactile-switch"
     },
     {
+        "id": 18,
         "name": "Gateron New North Pole 2.0 Linear Switch",
         "price": "$24.48",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0390-3.jpg?v=1690309702"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0390-3.jpg?v=1690309702",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-new-north-pole-2-0-linear-switch"
     },
     {
+        "id": 19,
         "name": "Keygeek Luxury Linear Switch",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0305-3.jpg?v=1689361651"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0305-3.jpg?v=1689361651",
+        "link": "https:\/\/cannonkeys.com\/\/products\/keygeek-luxury-linear-switch"
     },
     {
+        "id": 20,
         "name": "Gateron Quinn Tactile Switch",
         "price": "$21.96",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0302-3.jpg?v=1689361335"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC0302-3.jpg?v=1689361335",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-quinn-tactile-switch"
     },
     {
+        "id": 21,
         "name": "CK x Haimu Pastel Sky Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sky.png?v=1688667148"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sky.png?v=1688667148",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-sky-linear-switch"
     },
     {
+        "id": 22,
         "name": "CK x Haimu Pastel Thistle Tactile Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/thistle.png?v=1688667156"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/thistle.png?v=1688667156",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-thistle-tactile-switch"
     },
     {
+        "id": 23,
         "name": "CK x Haimu Pastel Flan Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/flan.png?v=1688667162"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/flan.png?v=1688667162",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-flan-linear-switch"
     },
     {
+        "id": 24,
         "name": "CK x Haimu Pastel Azalea Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Azalea.png?v=1688667171"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Azalea.png?v=1688667171",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-azalea-linear-switch"
     },
     {
+        "id": 25,
         "name": "CK x Haimu Pastel Lemon Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lemon-hero.png?v=1686687835"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lemon-hero.png?v=1686687835",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-lemon-linear-switch"
     },
     {
+        "id": 26,
         "name": "CK x Haimu Pastel Mint Tactile Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mint-hero.png?v=1686687873"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mint-hero.png?v=1686687873",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-mint-tactile-switch"
     },
     {
+        "id": 27,
         "name": "CK x Haimu Pastel Peach Linear Switch",
         "price": "$12.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/peach-hero.png?v=1686687896"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/peach-hero.png?v=1686687896",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ck-x-haimu-pastel-peach-linear-switch"
     },
     {
+        "id": 28,
         "name": "Gateron Luciola Linear Switch",
         "price": "$27.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/luciola-reg.png?v=1687362648"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/luciola-reg.png?v=1687362648",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-luciola-linear-switch"
     },
     {
+        "id": 29,
         "name": "Gateron Milky Yellow Black Bottom Pro Linear Switch",
         "price": "$8.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC03497-3.jpg?v=1686937331"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/DSC03497-3.jpg?v=1686937331",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-milky-yellow-black-bottom-pro-linear-switch"
     },
     {
+        "id": 30,
         "name": "Haimu Whisper Silent Tactile Switch",
         "price": "$10.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/whisper-hero.png?v=1686687958"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/whisper-hero.png?v=1686687958",
+        "link": "https:\/\/cannonkeys.com\/\/products\/haimu-whisper-silent-tactile-switch"
     },
     {
+        "id": 31,
         "name": "Gateron G Pro 2.0 Yellow Linear Switch",
         "price": "$9.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/g-pro-hero.png?v=1686688188"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/g-pro-hero.png?v=1686688188",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-g-pro-2-0-yellow-linear-switch"
     },
     {
+        "id": 32,
         "name": "Blush Light Tactile Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blush-light-hero.png?v=1686688289"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blush-light-hero.png?v=1686688289",
+        "link": "https:\/\/cannonkeys.com\/\/products\/blush-light-tactile-switch"
     },
     {
+        "id": 33,
         "name": "Gateron Pro North Pole V2 Linear Switch",
         "price": "$24.48",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/north-pole-hero.png?v=1686688402"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/north-pole-hero.png?v=1686688402",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-north-pole-linear-switch"
     },
     {
+        "id": 34,
         "name": "MOMOKA Frog Linear Switch",
         "price": "$55.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/frog-hero.png?v=1686690040"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/frog-hero.png?v=1686690040",
+        "link": "https:\/\/cannonkeys.com\/\/products\/momoka-frog-switch"
     },
     {
+        "id": 35,
         "name": "Chocolate Toffee Linear Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/chocolate-toffee-hero.png?v=1686688456"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/chocolate-toffee-hero.png?v=1686688456",
+        "link": "https:\/\/cannonkeys.com\/\/products\/chocolate-toffee-linear-switch"
     },
     {
+        "id": 36,
         "name": "Sunny Side Up Linear Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sunny-side-up-hero.png?v=1686688541"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sunny-side-up-hero.png?v=1686688541",
+        "link": "https:\/\/cannonkeys.com\/\/products\/sunny-side-up-linear-switch"
     },
     {
+        "id": 37,
         "name": "Gateron Baby Kangaroo Tactile Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/baby-kangaroo-hero.png?v=1686688570"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/baby-kangaroo-hero.png?v=1686688570",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-baby-kangaroo-tactile-switch"
     },
     {
+        "id": 38,
         "name": "Aurora Series Clear Linear Switch",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-clear-hero.png?v=1686688629"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-clear-hero.png?v=1686688629",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aurora-series-clear-linear-switch"
     },
     {
+        "id": 39,
         "name": "Aurora Series Pink Linear Switch",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-pink-hero.png?v=1686688681"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-pink-hero.png?v=1686688681",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aurora-series-pink-linear-switch"
     },
     {
+        "id": 40,
         "name": "Aurora Series Fog Linear Switch",
         "price": "$35.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-fog-hero.png?v=1686688700"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/aurora-series-fog-hero.png?v=1686688700",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aurora-series-fog-linear-switch"
     },
     {
+        "id": 41,
         "name": "Cherry MX Red Hyperglide Linear Switch",
         "price": "$13.68",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-red-hero.png?v=1686688719"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-red-hero.png?v=1686688719",
+        "link": "https:\/\/cannonkeys.com\/\/products\/cherry-mx-red-linear-switch"
     },
     {
+        "id": 42,
         "name": "Mekanisk Ultramarine V2 Linear Switch",
         "price": "$23.76",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/ultra-marine-hero.png?v=1686688751"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/ultra-marine-hero.png?v=1686688751",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mekanisk-ultramarine-v2-linear-switch"
     },
     {
+        "id": 43,
         "name": "AEBoards Blaeck Linear Switch (40)",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blaek-hero.png?v=1686688779"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blaek-hero.png?v=1686688779",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aeboards-blaeck-linear-switch"
     },
     {
+        "id": 44,
         "name": "FLCMMK Ice Mint Linear Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/ice-mint-hero.png?v=1686688867"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/ice-mint-hero.png?v=1686688867",
+        "link": "https:\/\/cannonkeys.com\/\/products\/flcmmk-ice-mint-linear-switch"
     },
     {
+        "id": 45,
         "name": "Gateron Mizu Mink Linear Switch",
         "price": "$27.72",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mizu-mink-hero.png?v=1686688890"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mizu-mink-hero.png?v=1686688890",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-mizu-mink-linear-switch"
     },
     {
+        "id": 46,
         "name": "Coral Silent Linear Switch",
         "price": "$27.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/coral-hero.png?v=1686688908"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/coral-hero.png?v=1686688908",
+        "link": "https:\/\/cannonkeys.com\/\/products\/coral-silent-linear-switch"
     },
     {
+        "id": 47,
         "name": "Blue Macaw Silent Tactile Switch",
         "price": "$27.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blue-macaw-hero.png?v=1686688941"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/blue-macaw-hero.png?v=1686688941",
+        "link": "https:\/\/cannonkeys.com\/\/products\/blue-macaw-silent-tactile-switch"
     },
     {
+        "id": 48,
         "name": "Cherry Blossom Linear Switch",
         "price": "$25.20",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-blossom-hero.png?v=1686688957"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-blossom-hero.png?v=1686688957",
+        "link": "https:\/\/cannonkeys.com\/\/products\/cherry-blossom-linear-switch"
     },
     {
+        "id": 49,
         "name": "JWICK Black Linear Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/jwick-black-hero.png?v=1686688979"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/jwick-black-hero.png?v=1686688979",
+        "link": "https:\/\/cannonkeys.com\/\/products\/jwick-black-linear-switch"
     },
     {
+        "id": 50,
         "name": "Korbs Linear Switches by Tiny",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/korbs-hero.png?v=1686688997"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/korbs-hero.png?v=1686688997",
+        "link": "https:\/\/cannonkeys.com\/\/products\/korbs-switches-by-tiny"
     },
     {
+        "id": 51,
         "name": "Gateron Pro 3.0 Brown Tactile Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_60276421-14c4-46d3-b2bc-534585be0158.jpg?v=1697762319"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_60276421-14c4-46d3-b2bc-534585be0158.jpg?v=1697762319",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-3-0-brown-tactile-switch"
     },
     {
+        "id": 52,
         "name": "Gateron Pro 3.0 Red Linear Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_59679b9e-6d47-4acb-b341-57228bea571f.jpg?v=1697762464"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_59679b9e-6d47-4acb-b341-57228bea571f.jpg?v=1697762464",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-3-0-red-linear-switch"
     },
     {
+        "id": 53,
         "name": "Gateron Pro 3.0 Black Linear Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_b43e6e06-2264-405a-b5dd-c836bd968980.jpg?v=1697762249"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_b43e6e06-2264-405a-b5dd-c836bd968980.jpg?v=1697762249",
+        "link": "https:\/\/cannonkeys.com\/\/products\/copy-of-gateron-pro-3-0-black-linear-switch"
     },
     {
+        "id": 54,
         "name": "Gateron Pro 3.0 Yellow Linear Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_f65c7f66-224f-44c3-b3dd-f2595dd7efe5.jpg?v=1697762210"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_f65c7f66-224f-44c3-b3dd-f2595dd7efe5.jpg?v=1697762210",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-3-0-yellow-linear-switch"
     },
     {
+        "id": 55,
         "name": "Gateron Pro 3.0 Silver Linear Switch",
         "price": "$10.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_b0c8d3bf-c0c9-4950-8a08-0c02f2e6c5f5.jpg?v=1697762397"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/Hero_b0c8d3bf-c0c9-4950-8a08-0c02f2e6c5f5.jpg?v=1697762397",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-3-0-silver-linear-switch"
     },
     {
+        "id": 56,
         "name": "SP-Star Sacramento Linear Switch",
         "price": "$20.88",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sacramento-hero.png?v=1686689015"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/sacramento-hero.png?v=1686689015",
+        "link": "https:\/\/cannonkeys.com\/\/products\/sp-star-sacramento-switch"
     },
     {
+        "id": 57,
         "name": "JWICK Yellow Linear Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/jwick-yellow-hero_66336840-383c-4f80-979e-2a93cf60c779.png?v=1686689043"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/jwick-yellow-hero_66336840-383c-4f80-979e-2a93cf60c779.png?v=1686689043",
+        "link": "https:\/\/cannonkeys.com\/\/products\/jwick-yellow-linear-switch"
     },
     {
+        "id": 58,
         "name": "Gateron CJ Linear Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cj-hero.png?v=1686689090"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cj-hero.png?v=1686689090",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-cj-linear-switch"
     },
     {
+        "id": 59,
         "name": "Gateron Black Ink Linear Switch",
         "price": "$27.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/black-ink-hero.png?v=1686689108"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/black-ink-hero.png?v=1686689108",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-black-ink-switch"
     },
     {
+        "id": 60,
         "name": "Cerulean Tactile Switch by Durock",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cerulean-hero.png?v=1686689140"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cerulean-hero.png?v=1686689140",
+        "link": "https:\/\/cannonkeys.com\/\/products\/durock-cerulean-switch"
     },
     {
+        "id": 61,
         "name": "Dark Amber T1 Tactile Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/dark-amber-hero_28bc246f-8034-4f5a-8fde-ab315017b526.png?v=1686689159"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/dark-amber-hero_28bc246f-8034-4f5a-8fde-ab315017b526.png?v=1686689159",
+        "link": "https:\/\/cannonkeys.com\/\/products\/durock-t1-dark-amber-switches"
     },
     {
+        "id": 62,
         "name": "MM Switch Top Housings",
         "price": "$7.50",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/tops-combo.png?v=1662657373"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/tops-combo.png?v=1662657373",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mm-switch-top-housings"
     },
     {
+        "id": 63,
         "name": "MM Switch Bottom Housings",
         "price": "$8.50",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/bottom-combo.png?v=1662657378"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/bottom-combo.png?v=1662657378",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mm-switch-bottom-housings"
     },
     {
+        "id": 64,
         "name": "MM Switch Stems",
         "price": "$7.50",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/stem-combo.png?v=1662657377"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/stem-combo.png?v=1662657377",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mm-switch-stems"
     },
     {
+        "id": 65,
         "name": "Seal Linear Switch by Minterly",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/seal-hero.png?v=1686689213"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/seal-hero.png?v=1686689213",
+        "link": "https:\/\/cannonkeys.com\/\/products\/seal-linear-switch-by-minterly"
     },
     {
+        "id": 66,
         "name": "Cherry MX Black Hyperglide Linear Switch",
         "price": "$13.68",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-black-hero.png?v=1686689241"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-black-hero.png?v=1686689241",
+        "link": "https:\/\/cannonkeys.com\/\/products\/cherry-mx-black-linear-switch"
     },
     {
+        "id": 67,
         "name": "Lavender Linear Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lavender-hero.png?v=1686689258"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lavender-hero.png?v=1686689258",
+        "link": "https:\/\/cannonkeys.com\/\/products\/lavender-linear-switch"
     },
     {
+        "id": 68,
         "name": "Gateron Full Nylon Yellow Linear Switch",
         "price": "$8.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/full-nylon-yellow-hero.png?v=1686689274"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/full-nylon-yellow-hero.png?v=1686689274",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-yellow-switch-full-nylon-10"
     },
     {
+        "id": 69,
         "name": "Lilac Linear Switch",
         "price": "$19.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lilac-linear-hero.png?v=1686689299"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lilac-linear-hero.png?v=1686689299",
+        "link": "https:\/\/cannonkeys.com\/\/products\/lilac-linear-switch"
     },
     {
+        "id": 70,
         "name": "Lilac Tactile Switch",
         "price": "$19.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lilac-tactile-hero_dae7e574-6b46-4faa-bf8b-53e1e4518f46.png?v=1686689319"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/lilac-tactile-hero_dae7e574-6b46-4faa-bf8b-53e1e4518f46.png?v=1686689319",
+        "link": "https:\/\/cannonkeys.com\/\/products\/lilac-tactile-switch-10"
     },
     {
+        "id": 71,
         "name": "Mauve Linear Switch",
         "price": "$19.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mauve-hero_78308b1d-3d98-49d5-aa45-6a73f56ca226.png?v=1686689346"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/mauve-hero_78308b1d-3d98-49d5-aa45-6a73f56ca226.png?v=1686689346",
+        "link": "https:\/\/cannonkeys.com\/\/products\/mauve-linear-switch-10"
     },
     {
+        "id": 72,
         "name": "Gateron Baby Raccoon Linear Switch",
         "price": "$19.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/baby-raccoon-hero.png?v=1686688143"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/baby-raccoon-hero.png?v=1686688143",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-baby-raccoon-linear-switch"
     },
     {
+        "id": 73,
         "name": "Gateron Milky Yellow Linear Switch",
         "price": "$8.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-yellow-hero.png?v=1686689571"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-yellow-hero.png?v=1686689571",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-yellow-10"
     },
     {
+        "id": 74,
         "name": "Gateron X Linear Switch",
         "price": "$17.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/x-hero.png?v=1686689072"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/x-hero.png?v=1686689072",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-x-switch"
     },
     {
+        "id": 75,
         "name": "Gateron Oil King Linear Switch",
         "price": "$23.40",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/oil-king-hero.png?v=1686688376"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/oil-king-hero.png?v=1686688376",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-oil-king-linear-switch"
     },
     {
+        "id": 76,
         "name": "AEBoards Raed Linear Switch R2 (40)",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/raed-hero_934665f0-fb9a-462d-b4fb-ca0042f8e962.png?v=1686688800"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/raed-hero_934665f0-fb9a-462d-b4fb-ca0042f8e962.png?v=1686688800",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aeboards-raed-linear-switch-r2"
     },
     {
+        "id": 77,
         "name": "Gateron Cap Milky Yellow V2 Linear Switch",
         "price": "$10.80",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cap-milky-yellow-hero.png?v=1686689465"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cap-milky-yellow-hero.png?v=1686689465",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-cap-milky-yellow-v2"
     },
     {
+        "id": 78,
         "name": "Cherry MX Clear Tactile Switch",
         "price": "$26.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-clear-hero.png?v=1686688595"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cherry-mx-clear-hero.png?v=1686688595",
+        "link": "https:\/\/cannonkeys.com\/\/products\/cherry-mx-clear-tactile-switch"
     },
     {
+        "id": 79,
         "name": "Wuque Studio Onion Linear Switch",
         "price": "$25.20",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/onion-hero.png?v=1686689598"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/onion-hero.png?v=1686689598",
+        "link": "https:\/\/cannonkeys.com\/\/products\/wuque-studio-onion-switches"
     },
     {
+        "id": 80,
         "name": "AEBoards Raed Linear Switch (35)",
         "price": "$11.49",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/raed-hero.png?v=1626918206"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/raed-hero.png?v=1626918206",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aeboards-raed-switch"
     },
     {
+        "id": 81,
         "name": "AEBoards Naevy Tactile Switch R1.5 (35)",
         "price": "$11.49",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/naevy-hero.png?v=1626918188"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/naevy-hero.png?v=1626918188",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aeboards-naevy-switch-r1_5"
     },
     {
+        "id": 82,
         "name": "Taro Ball Tactile Switch",
         "price": "$21.60",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/taro-ball-hero.png?v=1686689620"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/taro-ball-hero.png?v=1686689620",
+        "link": "https:\/\/cannonkeys.com\/\/products\/taro-ball-switch"
     },
     {
+        "id": 83,
         "name": "Wuque Studio Original Aspiration (OA) Linear Switch",
         "price": "$71.50",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/oa-hero.png?v=1630767326"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/oa-hero.png?v=1630767326",
+        "link": "https:\/\/cannonkeys.com\/\/products\/wuque-studio-original-aspiration-oa-switch"
     },
     {
+        "id": 84,
         "name": "Gateron Brown Tactile Switch (10)",
         "price": "$2.30",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-brown-hero-new_bd1163b2-b331-4dd5-8c7b-c78458a4d8b7.png?v=1627080006"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-brown-hero-new_bd1163b2-b331-4dd5-8c7b-c78458a4d8b7.png?v=1627080006",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-brown-switch-10"
     },
     {
+        "id": 85,
         "name": "Gateron Red Linear Switch (10)",
         "price": "$2.30",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-red-hero-new.png?v=1627080011"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-red-hero-new.png?v=1627080011",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-red-switch-10"
     },
     {
+        "id": 86,
         "name": "Gateron Black Linear Switch (10)",
         "price": "$2.30",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-black-hero.png?v=1626922090"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/products\/gat-black-hero.png?v=1626922090",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-black-switch-10"
     },
     {
+        "id": 87,
         "name": "Gateron Cap Golden Yellow V2 Linear Switch",
         "price": "$17.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cap-golden-yellow-hero.png?v=1686689986"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/cap-golden-yellow-hero.png?v=1686689986",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-cap-golden-yellow-v2"
     },
     {
+        "id": 88,
         "name": "Kailh BOX Crystal Pink Clicky Switch",
         "price": "$16.20",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/box-crystal-pink-hero.png?v=1686690019"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/box-crystal-pink-hero.png?v=1686690019",
+        "link": "https:\/\/cannonkeys.com\/\/products\/box-crystal-pink-switch"
     },
     {
+        "id": 89,
         "name": "TTC Bluish White Tactile Switch",
         "price": "$17.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/bluish-white-hero.png?v=1686689123"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/bluish-white-hero.png?v=1686689123",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ttc-bluish-white-tactile-switch"
     },
     {
+        "id": 90,
         "name": "TTC Gold Pink Linear Switch",
         "price": "$17.28",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/gold-pink-hero.png?v=1686689536"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/gold-pink-hero.png?v=1686689536",
+        "link": "https:\/\/cannonkeys.com\/\/products\/ttc-gold-pink-linear-switch"
     },
     {
+        "id": 91,
         "name": "Gateron Pro Milky Brown 1.0 Tactile Switch",
         "price": "$8.64",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-brown-hero.png?v=1686688220"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-brown-hero.png?v=1686688220",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-milky-brown-1-0-tactile-switch"
     },
     {
+        "id": 92,
         "name": "Gateron Pro Milky Yellow 1.0 Linear Switch",
         "price": "$8.54",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-yellow-1.0-hero.png?v=1686688848"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/milky-yellow-1.0-hero.png?v=1686688848",
+        "link": "https:\/\/cannonkeys.com\/\/products\/gateron-pro-milky-yellow-1-0-linear-switch"
     },
     {
+        "id": 93,
         "name": "AEBoards Naevy Tactile Switch R2 (40)",
         "price": "$18.00",
-        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/naevy-hero_30144c01-f665-46e3-a5a6-540ecce544d2.png?v=1686688819"
+        "img": "\/\/cannonkeys.com\/cdn\/shop\/files\/naevy-hero_30144c01-f665-46e3-a5a6-540ecce544d2.png?v=1686688819",
+        "link": "https:\/\/cannonkeys.com\/\/products\/aeboards-naevy-tactile-switch-r2"
     }
 ]
