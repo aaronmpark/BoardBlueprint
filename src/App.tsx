@@ -5,9 +5,10 @@ import { Store } from "./pages/store";
 import { About } from "./pages/about";
 import { Navbar } from "./components/navBar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import { Base } from "./pages/base";
+import { Board } from "./pages/board";
 import { Switches } from "./pages/switches";
 import { Keycaps } from "./pages/keycaps";
+import { Accessories } from "./pages/accessories";
 import Cover from "./pages/cover";
 
 // className = mb-4 (margining)
@@ -21,9 +22,10 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
-          <Route path="/base" element={<Base />} />
+          <Route path="/board" element={<Board />} />
           <Route path="/switches" element={<Switches />} />
           <Route path="/keycaps" element={<Keycaps />} />
+          <Route path="/accessories" element={<Accessories />} />
         </Routes>
       </Container>
     </ShoppingCartProvider>
