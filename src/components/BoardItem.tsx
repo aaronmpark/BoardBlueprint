@@ -12,7 +12,7 @@ type StoreItemProps = {
     link: string;
 };
 
-export function BaseItem({ id, name, price, img, link }: StoreItemProps) {
+export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
     const {
         getItemQuantity,
         increaseCartQuantity,
