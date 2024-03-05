@@ -33,7 +33,7 @@ const Cover = () => {
             </p>
           </main>
 
-          <footer className="mastfoot mt-auto">
+          <footer className="mastfoot mt-auto fixed-bottom">
             <div className="inner"></div>
             <Copyright />
           </footer>

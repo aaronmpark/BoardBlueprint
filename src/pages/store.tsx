@@ -6,15 +6,15 @@ import Copyright from "../components/Copyright";
 export function Store() {
   return (
     <>
-      <h1>Store</h1>
-      <Row md={2} xs={1} lg={3} className="g-3">
+      <h1 className="mt-4 mb-4">Store</h1>
+      <Row md={2} xs={1} lg={3}>
         {storeItems.map((item) => (
           <Col key={item.id}>
             <StoreItem {...item} />
           </Col>
         ))}
       </Row>
-      <footer>
+      <footer className="fixed-bottom">
         <Copyright />
       </footer>
     </>

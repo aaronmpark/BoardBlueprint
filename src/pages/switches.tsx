@@ -6,7 +6,7 @@ import Copyright from "../components/Copyright";
 export function Switches() {
   return (
     <>
-      <h1>Switches</h1>
+      <h1 className="mt-4 mb-4">Switches</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
         {switchesItems.map((item) => (
           <Col key={item.id}>

@@ -31,9 +31,11 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
               objectFit: "contain",
             }}
           />
-          <span>{name}</span>
+          <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+            {name}
+          </span>
         </div>
-        <Button variant="outline-primary" onClick={handleNavigation}>
+        <Button variant="btn btn-outline-secondary" onClick={handleNavigation}>
           + Add
         </Button>
       </ListGroup.Item>
