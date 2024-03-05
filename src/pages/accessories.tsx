@@ -6,7 +6,7 @@ import Copyright from "../components/Copyright";
 export function Accessories() {
   return (
     <>
-      <h1>Accessories</h1>
+      <h1 className="mt-4 mb-4">Accessories</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
         {accessoriesItems.map((item) => (
           <Col key={item.id}>
