@@ -13,17 +13,15 @@ type ShoppingCartProviderProps = {
 type ShoppingCartContext = {
     openCart: () => void
     closeCart: () => void
-    getItemQuantity: (id: number) => number
-    increaseCartQuantity: (id: number) => void
-    decreaseCartQuantity: (id: number) => void
+    getItemType: (type: string) => number
+    increaseCartQuantity: (type: string, id: number) => void
     removeFromCart: (id: number) => void
-    cartQuantity: number
     cartItems: CartItem[]
 }
 
 type CartItem = {
     id: number
-    quantity: number
+    type: string
 }
 
 const ShoppingCartContext = createContext({} as
@@ -41,51 +39,20 @@ export function ShoppingCartProvider({ children }:
 
     const [isOpen, setIsOpen] = useState(false)
 
-
-    const cartQuantity = cartItems.reduce((quantity, item) => item.quantity + quantity,
-        0
-    )
-
-
     const openCart = () => setIsOpen(true)
     const closeCart = () => setIsOpen(false)
 
-    function getItemQuantity(id: number) {
-        return cartItems.find(item => item.id === id)?.quantity || 0
+    function getItemType(type: string) {
+        return cartItems.find(item => item.type === type)?.id || 0
     }
 
-    function increaseCartQuantity(id: number) {
+    function increaseCartQuantity(type: string, id: number) {
         setCartItems(currItems => {
-            if (currItems.find(item => item.id === id) == null) {
-                return [...currItems, { id, quantity: 1 }]
+            if (currItems.find(item => item.id === id)?.type == null) {
+                return [...currItems, { type, id }]
             }
             else {
-                return currItems.map(item => {
-                    if (item.id === id) {
-                        return { ...item, quantity: item.quantity + 1 }
-                    }
-                    else {
-                        return item
-                    }
-                })
-            }
-        })
-    }
-
-    function decreaseCartQuantity(id: number) {
-        setCartItems(currItems => {
-            if (currItems.find(item => item.id === id)?.quantity === 1) {
-                return currItems.filter(item => item.id !== id)
-            }
-            else {
-                return currItems.map(item => {
-                    if (item.id === id) {
-                        return { ...item, quantity: item.quantity - 1 }
-                    }
-                    else {
-                        return item
-                    }
-                })
+                return [...currItems, { type, id }]
             }
         })
     }
@@ -96,16 +63,13 @@ export function ShoppingCartProvider({ children }:
         })
     }
 
-
     return (
         <ShoppingCartContext.Provider value={{
-            getItemQuantity,
+            getItemType,
             increaseCartQuantity,
-            decreaseCartQuantity,
             openCart,
             closeCart,
             cartItems,
-            cartQuantity,
             removeFromCart
         }}>
             {children}
