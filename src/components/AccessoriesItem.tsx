@@ -13,12 +13,11 @@ type StoreItemProps = {
 
 export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) {
     const {
-        getItemQuantity,
+        getItemType,
         increaseCartQuantity,
-        decreaseCartQuantity,
         removeFromCart,
     } = useShoppingCart();
-    const quantity = getItemQuantity(id);
+    const identity = getItemType("accessories");
 
     return (
         <Card className="h-100">
@@ -37,11 +36,11 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                     <span className="ms-2 text-muted">{price}</span>
                 </Card.Title>
                 <div className="mt-auto">
-                    {quantity === 0 ? (
-                        <Button className="w-100" onClick={() => increaseCartQuantity(id)}>
+                    {identity !== id ? (
+                        <Button className="w-100" onClick={() => increaseCartQuantity("accessories", id)}>
                             + Add to Cart
                         </Button>
-                    ) : (
+                    ) : identity === id ? (
                         <div
                             className="d-flex align-items-center 
                 flex-column"
@@ -52,11 +51,6 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                     justify-content-center"
                                 style={{ gap: ".5rem" }}
                             >
-                                <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
-                                <div>
-                                    <span className="fs-3">{quantity}</span> in cart
-                                </div>
-                                <Button onClick={() => increaseCartQuantity(id)}>+</Button>
                             </div>
                             <Button
                                 onClick={() => removeFromCart(id)}
@@ -66,6 +60,10 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                                 Remove
                             </Button>
                         </div>
+                    ) : (
+                        <Button>
+                            ERROR
+                        </Button>
                     )}
                 </div>
             </Card.Body>
