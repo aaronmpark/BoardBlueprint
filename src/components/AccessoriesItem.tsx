@@ -1,5 +1,6 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useNavigate } from "react-router-dom";
 
 // Stores the items within the shopping cart
 
@@ -18,7 +19,11 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
         removeFromCart,
     } = useShoppingCart();
     const identity = getItemType("accessories");
+    const navigate = useNavigate();
 
+    const handleNavigation = () => {
+        navigate("/home");
+    };
     return (
         <Card className="h-100">
             <Card.Img
@@ -37,7 +42,7 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                 </Card.Title>
                 <div className="mt-auto">
                     {identity !== id ? (
-                        <Button className="w-100" onClick={() => increaseCartQuantity("accessories", id)}>
+                        <Button className="w-100" onClick={() => { increaseCartQuantity("accessories", id); handleNavigation(); }}>
                             + Add to Cart
                         </Button>
                     ) : identity === id ? (
@@ -53,7 +58,7 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart(id)}
+                                onClick={() => removeFromCart("accessories", id)}
                                 variant="danger"
                                 size="sm"
                             >

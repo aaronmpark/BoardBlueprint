@@ -1,5 +1,6 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useNavigate } from "react-router-dom";
 
 // Stores the items within the shopping cart
 
@@ -18,7 +19,11 @@ export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
         removeFromCart,
     } = useShoppingCart();
     const identity = getItemType("keycaps");
+    const navigate = useNavigate();
 
+    const handleNavigation = () => {
+        navigate("/home");
+    };
     return (
         <Card className="h-100">
             <Card.Img
@@ -37,7 +42,7 @@ export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
                 </Card.Title>
                 <div className="mt-auto">
                     {identity !== id ? (
-                        <Button className="w-100" onClick={() => increaseCartQuantity("keycaps", id)}>
+                        <Button className="w-100" onClick={() => { increaseCartQuantity("keycaps", id); handleNavigation(); }}>
                             + Add to Cart
                         </Button>
                     ) : identity === id ? (
