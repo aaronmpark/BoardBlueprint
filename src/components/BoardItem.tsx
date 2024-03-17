@@ -1,6 +1,6 @@
 import { Button, Card } from "react-bootstrap";
-import { formatCurrency } from "../utilities/formatCurrency";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import { useNavigate } from "react-router-dom";
 
 // Stores the items within the shopping cart
 
@@ -19,6 +19,11 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
         removeFromCart,
     } = useShoppingCart();
     const identity = getItemType("board");
+    const navigate = useNavigate();
+
+    const handleNavigation = () => {
+        navigate("/home");
+    };
 
     return (
         <Card className="h-100">
@@ -38,7 +43,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                 </Card.Title>
                 <div className="mt-auto">
                     {identity !== id ? (
-                        <Button className="w-100" onClick={() => increaseCartQuantity("board", id)}>
+                        <Button className="w-100" onClick={() => { increaseCartQuantity("board", id); handleNavigation(); }}>
                             + Add to Cart
                         </Button>
                     ) : identity === id ? (
