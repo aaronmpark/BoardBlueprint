@@ -1,4 +1,4 @@
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, CardGroup } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useNavigate } from "react-router-dom";
 
@@ -24,18 +24,53 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
     const handleNavigation = () => {
         navigate("/home");
     };
-
     return (
-        <Card className="h-100">
-            <Card.Img
-                variant="top"
-                src={img}
-                height="200px"
-                style={{ objectFit: "cover" }}
-            />
-            <Card.Body className="d-flex flex-column">
-                <Card.Title
-                    className="d-flex justify-content-between
+        <CardGroup>
+            <Card className="t-2 mb-3">
+                <Card.Img variant="top" src={img} height="200px" />
+                <Card.Body>
+                    <Card.Title className="fs-4">{name}</Card.Title>
+                    <Card.Text className="fs-5 text-muted">{price}</Card.Text>
+                    <div className="mt-auto">
+                        {identity !== id ? (
+                            <Button
+                                className="w-100 mt-1 mb-2"
+                                onClick={() => { increaseCartQuantity("board", id); handleNavigation(); }}
+                            >
+                                + Add to Cart
+                            </Button>
+                        ) : identity === id ? (
+                            <Button
+                                className="w-100 mt-1 mb-2"
+                                onClick={() => removeFromCart("board", id)}
+                                variant="danger"
+                            >
+                                Remove
+                            </Button>
+                        ) : (
+                            <Button>GG</Button>
+                        )}
+                    </div>
+                </Card.Body>
+            </Card>
+        </CardGroup>
+    );
+}
+
+/*
+EXAMPLE OF NAVIGATING back to HOME
+import { useNavigate } from "react-router-dom";
+const navigate = useNavigate();
+<Card className="h-100">
+      <Card.Img
+        variant="top"
+        src={img}
+        height="200px"
+        style={{ objectFit: "cover" }}
+      />
+      <Card.Body className="d-flex flex-column">
+        <Card.Title
+          className="d-flex justify-content-between
             align-items-baseline mb-4"
                 >
                     <span className="fs-2">{name}</span>
@@ -43,7 +78,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                 </Card.Title>
                 <div className="mt-auto">
                     {identity !== id ? (
-                        <Button className="w-100" onClick={() => { increaseCartQuantity("board", id); handleNavigation(); }}>
+                        <Button className="w-100" onClick={() => increaseCartQuantity("board", id)}>
                             + Add to Cart
                         </Button>
                     ) : identity === id ? (
@@ -59,7 +94,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart("board", id)}
+                                onClick={() => removeFromCart(id)}
                                 variant="danger"
                                 size="sm"
                             >
@@ -76,3 +111,4 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
         </Card>
     );
 }
+*/
