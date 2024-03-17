@@ -17,18 +17,16 @@ const Cover = () => {
           </header>
 
           <main role="main">
-            <h1 className="cover-heading">Aaron Park = 🤓.</h1>
+            <h1 className="cover-heading">Keyboard Builder</h1>
             <p className="lead">
-              Cover is a one-page template for building simple and beautiful
-              home pages. Download, edit the text, and add your own fullscreen
-              background photo to make it your own.
+              Design Your Perfect Keyboard: Customization at Your Fingertips
             </p>
             <p className="lead">
               <button
                 className="btn btn-lg btn-secondary"
                 onClick={() => navigate("/home")}
               >
-                Enter site
+                Begin
               </button>
             </p>
           </main>
