@@ -1,6 +1,7 @@
 import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useNavigate } from "react-router-dom";
+import { useState } from 'react';
 
 // Stores the items within the shopping cart
 
@@ -21,6 +22,8 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
     const handleNavigation = () => {
         navigate("/home");
     };
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
         <Card className="h-100">
             <Card.Img
@@ -31,12 +34,16 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
             />
             <Card.Body className="d-flex flex-column">
                 <Card.Title
-                    className="d-flex justify-content-between
-            align-items-baseline mb-4"
+                    className="fs-4"
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
                 >
-                    <span className="fs-2">{name}</span>
-                    <span className="ms-2 text-muted">{price}</span>
-                </Card.Title>
+                    {isHovered ? (
+                        <a href={link} target="_blank" rel="noopener noreferrer">{name}</a>
+                    ) : (
+                        <span>{name}</span>
+                    )}</Card.Title>
+                <Card.Text className="fs-5 text-muted">{price}</Card.Text>
                 <div className="mt-auto">
                     {identity !== id ? (
                         <Button className="w-100" onClick={() => { increaseCartQuantity("switches", id); handleNavigation(); }}>
