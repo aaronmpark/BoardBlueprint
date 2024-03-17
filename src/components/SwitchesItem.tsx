@@ -9,10 +9,9 @@ type StoreItemProps = {
     name: string;
     price: string;
     img: string;
-    link: string;
 };
 
-export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
+export function SwitchesItem({ id, name, price, img }: StoreItemProps) {
     const {
         getItemType,
         increaseCartQuantity,
@@ -67,7 +66,7 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
                         </div>
                     ) : (
                         <Button>
-                            GG BRO
+                            Error
                         </Button>
                     )}
                 </div>

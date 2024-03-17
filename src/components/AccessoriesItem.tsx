@@ -9,10 +9,9 @@ type StoreItemProps = {
     name: string;
     price: string;
     img: string;
-    link: string;
 };
 
-export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) {
+export function AccessoriesItem({ id, name, price, img }: StoreItemProps) {
     const {
         getItemType,
         increaseCartQuantity,
@@ -67,7 +66,7 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                         </div>
                     ) : (
                         <Button>
-                            ERROR
+                            Error
                         </Button>
                     )}
                 </div>

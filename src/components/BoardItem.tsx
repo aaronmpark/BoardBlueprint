@@ -9,10 +9,9 @@ type StoreItemProps = {
     name: string;
     price: string;
     img: string;
-    link: string;
 };
 
-export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
+export function BoardItem({ id, name, price, img }: StoreItemProps) {
     const {
         getItemType,
         increaseCartQuantity,
@@ -48,7 +47,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                                 Remove
                             </Button>
                         ) : (
-                            <Button>GG</Button>
+                            <Button>Error</Button>
                         )}
                     </div>
                 </Card.Body>

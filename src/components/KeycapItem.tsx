@@ -9,10 +9,9 @@ type StoreItemProps = {
     name: string;
     price: string;
     img: string;
-    link: string;
 };
 
-export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
+export function KeycapItem({ id, name, price, img }: StoreItemProps) {
     const {
         getItemType,
         increaseCartQuantity,
@@ -58,7 +57,7 @@ export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart(id)}
+                                onClick={() => removeFromCart("keycaps", id)}
                                 variant="danger"
                                 size="sm"
                             >
@@ -67,7 +66,7 @@ export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
                         </div>
                     ) : (
                         <Button>
-                            GG
+                            Error
                         </Button>
                     )}
                 </div>
