@@ -17,7 +17,7 @@ const Cover = () => {
           </header>
 
           <main role="main">
-            <h1 className="cover-heading">Keyboard Builder</h1>
+            <h1 className="cover-heading">Aaron Park = 🤓</h1>
             <p className="lead">
               Design Your Perfect Keyboard: Customization at Your Fingertips
             </p>

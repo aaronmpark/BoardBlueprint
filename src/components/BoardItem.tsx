@@ -1,4 +1,4 @@
-import { Button, Card, CardGroup } from "react-bootstrap";
+import { Button, Card } from "react-bootstrap";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { useNavigate } from "react-router-dom";
 
@@ -13,11 +13,8 @@ type StoreItemProps = {
 };
 
 export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
-    const {
-        getItemType,
-        increaseCartQuantity,
-        removeFromCart,
-    } = useShoppingCart();
+    const { getItemType, increaseCartQuantity, removeFromCart } =
+        useShoppingCart();
     const identity = getItemType("board");
     const navigate = useNavigate();
 
@@ -48,7 +45,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                                 Remove
                             </Button>
                         ) : (
-                            <Button>Error</Button>
+                            <Button>GG</Button>
                         )}
                     </div>
                 </Card.Body>
@@ -111,4 +108,3 @@ const navigate = useNavigate();
         </Card>
     );
 }
-*/

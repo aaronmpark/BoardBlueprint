@@ -13,11 +13,8 @@ type StoreItemProps = {
 };
 
 export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
-    const {
-        getItemType,
-        increaseCartQuantity,
-        removeFromCart,
-    } = useShoppingCart();
+    const { getItemType, increaseCartQuantity, removeFromCart } =
+        useShoppingCart();
     const identity = getItemType("switches");
     const navigate = useNavigate();
 
@@ -67,7 +64,7 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
                         </div>
                     ) : (
                         <Button>
-                            Error
+                            GG BRO
                         </Button>
                     )}
                 </div>
