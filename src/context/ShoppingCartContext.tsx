@@ -15,7 +15,7 @@ type ShoppingCartContext = {
     closeCart: () => void
     getItemType: (type: string) => number
     increaseCartQuantity: (type: string, id: number) => void
-    removeFromCart: (id: number) => void
+    removeFromCart: (type: string, id: number) => void
     cartItems: CartItem[]
 }
 
@@ -57,9 +57,12 @@ export function ShoppingCartProvider({ children }:
         })
     }
 
-    function removeFromCart(id: number) {
+    function removeFromCart(type: string, id: number) {
         setCartItems(currItems => {
-            return currItems.filter(item => item.id !== id)
+            if (currItems.find(item => item.id === id)?.type != null) {
+                return currItems.filter(item => item.type !== type)
+            }
+            return currItems
         })
     }
 

@@ -58,7 +58,7 @@ export function AccessoriesItem({ id, name, price, img, link }: StoreItemProps) 
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart(id)}
+                                onClick={() => removeFromCart("accessories", id)}
                                 variant="danger"
                                 size="sm"
                             >

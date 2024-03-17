@@ -59,7 +59,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart(id)}
+                                onClick={() => removeFromCart("board", id)}
                                 variant="danger"
                                 size="sm"
                             >

@@ -58,7 +58,7 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
                             >
                             </div>
                             <Button
-                                onClick={() => removeFromCart(id)}
+                                onClick={() => removeFromCart("switches", id)}
                                 variant="danger"
                                 size="sm"
                             >
