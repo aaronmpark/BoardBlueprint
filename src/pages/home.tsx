@@ -6,7 +6,7 @@ import Copyright from "../components/Copyright";
 export function Home() {
   return (
     <>
-      <h1 className="mt-4 mb-4">Keyboards</h1>
+      <h1 className="mt-4 mb-4">Home</h1>
       <Row>
         <Col xs={12} md={4}>
           <ListGroup>
