@@ -44,7 +44,7 @@ export function KeycapItem({ id, name, price, img, link }: StoreItemProps) {
                         <Button
                             className="w-100 mt-1 mb-2"
                             onClick={() => {
-                                increaseCartQuantity("keycaps", id);
+                                increaseCartQuantity("keycaps", id, name, img, link, price);
                                 handleNavigation();
                             }}
                         >

@@ -49,7 +49,7 @@ export function AccessoriesItem({
                         <Button
                             className="w-100 mt-1 mb-2"
                             onClick={() => {
-                                increaseCartQuantity("accessories", id);
+                                increaseCartQuantity("accessories", id, name, img, link, price);
                                 handleNavigation();
                             }}
                         >

@@ -14,14 +14,22 @@ type HomeItemProps = {
 export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
   const navigate = useNavigate();
 
-  const { getItemType } = useShoppingCart();
+  const { getItemType, getItemValue, removeFromCart } = useShoppingCart();
 
   const handleNavigation = () => {
     navigate(navigateTo);
   };
 
-  const lower_name = name.toLowerCase();
-  const flag = getItemType(lower_name);
+  const lowerName = name.toLowerCase();
+  const flag = getItemType(lowerName);
+
+  const itemDetails = {
+    id: getItemType(lowerName),
+    image: getItemValue(lowerName, "img"),
+    price: getItemValue(lowerName, "price"),
+    itemName: getItemValue(lowerName, "name"),
+    link: getItemValue(lowerName, "link")
+  };
 
   return (
     <div>
@@ -49,9 +57,34 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
           </ListGroup.Item>
         </ListGroup>
       ) : (
-        <Button variant="btn btn-outline-secondary" onClick={handleNavigation}>
-          + Add
-        </Button>
+        <ListGroup className="h-100">
+          <ListGroup.Item className="d-flex justify-content-between align-items-center mb-3">
+            <div className="d-flex align-items-center">
+              <img
+                src={itemDetails.image}
+                alt={name}
+                style={{
+                  width: "90px",
+                  height: "90px",
+                  marginRight: "13%",
+                  objectFit: "contain",
+                }}
+              />
+              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+                {itemDetails.price}
+              </span>
+              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+                {itemDetails.itemName}
+              </span>
+              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+                {itemDetails.link}
+              </span>
+            </div>
+            <Button variant="btn btn-outline-secondary" onClick={() => removeFromCart(lowerName, itemDetails.id)}>
+              X
+            </Button>
+          </ListGroup.Item>
+        </ListGroup>
       )}
     </div>
   );

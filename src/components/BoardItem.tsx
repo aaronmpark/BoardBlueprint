@@ -44,7 +44,7 @@ export function BoardItem({ id, name, price, img, link }: StoreItemProps) {
                         <Button
                             className="w-100 mt-1 mb-2"
                             onClick={() => {
-                                increaseCartQuantity("board", id);
+                                increaseCartQuantity("board", id, name, img, link, price);
                                 handleNavigation();
                             }}
                         >

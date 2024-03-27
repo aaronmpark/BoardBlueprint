@@ -14,7 +14,8 @@ type ShoppingCartContext = {
     openCart: () => void
     closeCart: () => void
     getItemType: (type: string) => number
-    increaseCartQuantity: (type: string, id: number) => void
+    getItemValue: (type: string, key: keyof Omit<CartItem, 'id' | 'type'>) => string
+    increaseCartQuantity: (type: string, id: number, name: string, img: string, link: string, price: string) => void
     removeFromCart: (type: string, id: number) => void
     cartItems: CartItem[]
 }
@@ -22,6 +23,10 @@ type ShoppingCartContext = {
 type CartItem = {
     id: number
     type: string
+    name: string
+    img: string
+    link: string
+    price: string
 }
 
 const ShoppingCartContext = createContext({} as
@@ -46,13 +51,17 @@ export function ShoppingCartProvider({ children }:
         return cartItems.find(item => item.type === type)?.id || 0
     }
 
-    function increaseCartQuantity(type: string, id: number) {
+    function getItemValue(type: string, key: keyof Omit<CartItem, 'id' | 'type'>) {
+        return cartItems.find(item => item.type === type)?.[key] || ""
+    }
+
+    function increaseCartQuantity(type: string, id: number, name: string, img: string, link: string, price: string) {
         setCartItems(currItems => {
             if (currItems.find(item => item.id === id)?.type == null) {
-                return [...currItems, { type, id }]
+                return [...currItems, { type, id, name, img, link, price }]
             }
             else {
-                return [...currItems, { type, id }]
+                return [...currItems, { type, id, name, img, link, price }]
             }
         })
     }
@@ -70,6 +79,7 @@ export function ShoppingCartProvider({ children }:
         <ShoppingCartContext.Provider value={{
             getItemType,
             increaseCartQuantity,
+            getItemValue,
             openCart,
             closeCart,
             cartItems,
