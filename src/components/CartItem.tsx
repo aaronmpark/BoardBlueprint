@@ -10,6 +10,10 @@ import { formatCurrency } from "../utilities/formatCurrency";
 type CartItemProps = {
   id: number;
   quantity: number;
+  name: string
+  img: string
+  link: string
+  price: string
 };
 
 export function CartItem({ id, quantity }: CartItemProps) {

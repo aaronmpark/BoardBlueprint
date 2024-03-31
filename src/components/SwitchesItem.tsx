@@ -46,7 +46,10 @@ export function SwitchesItem({ id, name, price, img, link }: StoreItemProps) {
                 <Card.Text className="fs-5 text-muted">{price}</Card.Text>
                 <div className="mt-auto">
                     {identity !== id ? (
-                        <Button className="w-100" onClick={() => { increaseCartQuantity("switches", id); handleNavigation(); }}>
+                        <Button className="w-100" onClick={() => {
+                            increaseCartQuantity("switches", id, name, img, link, price);
+                            handleNavigation();
+                        }}>
                             + Add to Cart
                         </Button>
                     ) : identity === id ? (
