@@ -1,7 +1,6 @@
 import { Button, ListGroup } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-
 //Home page for "keyboards" (for now named "Home", future change this name)
 //added 'navigateTo', which just directly navigates to specified page (i.e. "base" to base.tsx)
 
@@ -30,6 +29,11 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
     itemName: getItemValue(lowerName, "name"),
     link: getItemValue(lowerName, "link")
   };
+
+  const url = itemDetails.link;
+  const handleClick = () => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
 
   return (
     <div>
@@ -70,19 +74,23 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
                   objectFit: "contain",
                 }}
               />
-              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+              <span className="fw-medium position-static top-50 start-50 ">
                 {itemDetails.price}
               </span>
-              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
+            </div>
+            <div>
+              <span className="fw-medium position-static top-50 start-50">
                 {itemDetails.itemName}
               </span>
-              <span className="fw-medium position-absolute top-50 start-50 translate-middle">
-                {itemDetails.link}
-              </span>
             </div>
-            <Button variant="btn btn-outline-secondary" onClick={() => removeFromCart(lowerName, itemDetails.id)}>
-              X
-            </Button>
+            <div>
+              <Button variant="btn btn-outline-secondary" onClick={() => handleClick()}>
+                +
+              </Button>
+              <Button variant="btn btn-outline-secondary" onClick={() => removeFromCart(lowerName, itemDetails.id)}>
+                X
+              </Button>
+            </div>
           </ListGroup.Item>
         </ListGroup>
       )}

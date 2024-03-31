@@ -8,7 +8,7 @@ export function Home() {
     <>
       <h1 className="mt-4 mb-4">Home</h1>
       <Row>
-        <Col xs={12} md={4}>
+        <Col xs={16} md={8}>
           <ListGroup>
             {homeItems.map((item) => (
               <HomeItem key={item.id} {...item} />
