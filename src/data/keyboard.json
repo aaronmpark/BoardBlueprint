@@ -23,7 +23,7 @@
     {
         "id": 4,
         "name": "Accessories",
-        "imgUrl": "",
+        "imgUrl": "imgs/accessories.jpg",
         "navigateTo": "/accessories"
     }
 ]

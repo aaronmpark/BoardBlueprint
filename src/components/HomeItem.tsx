@@ -85,7 +85,7 @@ export function HomeItem({ name, imgUrl, navigateTo }: HomeItemProps) {
             </div>
             <div>
               <Button variant="btn btn-outline-secondary" onClick={() => handleClick()}>
-                +
+                Buy
               </Button>
               <Button variant="btn btn-outline-secondary" onClick={() => removeFromCart(lowerName, itemDetails.id)}>
                 X
