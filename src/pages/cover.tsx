@@ -17,7 +17,7 @@ const Cover = () => {
           </header>
 
           <main role="main">
-            <h1 className="cover-heading">Aaron Park = 🤓</h1>
+            <h1 className="cover-heading">Engineer Your Ideal Keystrokes - Begin Your Custom Build</h1>
             <p className="lead">
               Design Your Perfect Keyboard: Customization at Your Fingertips
             </p>
@@ -26,7 +26,7 @@ const Cover = () => {
                 className="btn btn-lg btn-secondary"
                 onClick={() => navigate("/home")}
               >
-                Begin
+                Start Your Build
               </button>
             </p>
           </main>
