@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap';
 import Copyright from "../components/Copyright";
 
 export function About() {
@@ -13,8 +13,11 @@ export function About() {
         <Row>
           <Col md={6} sm={12}>
             <p>
-              Want to see more? access our page on github!
+              Want to see more? Access our page on GitHub!
             </p>
+            <Button variant="primary" href="https://github.com/aaronmpark/BoardBlueprint" target="_blank">
+              Visit GitHub
+            </Button>
           </Col>
           <Col md={6} sm={12}>
             <p>
