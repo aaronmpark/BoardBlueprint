@@ -13,12 +13,11 @@ export function About() {
         <Row>
           <Col md={6} sm={12}>
             <p>
-              Want to see more? .... skarner skarner skarner
+              Want to see more? access our page on github!
             </p>
           </Col>
           <Col md={6} sm={12}>
             <p>
-              github here or some shit idk
             </p>
           </Col>
         </Row>
